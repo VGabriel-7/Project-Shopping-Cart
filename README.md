@@ -1,4 +1,4 @@
-<strong>👨‍💻 O que deverá ser desenvolvido</strong><br />
+<strong>👨‍💻 O que foi desenvolvido</strong><br />
 
 Desenvolvi um **carrinho de compras** totalmente dinâmico! 🛒
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trybe Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="./helpers/fetchItem.js" defer></script>
+    <script src="./helpers/fetchProducts.js" defer></script>
+    <script src="./helpers/saveCartItems.js" defer></script>
+    <script src="./helpers/getSavedCartItems.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <span class="title"><strong>trybe</strong>shopping</span>
+    </header>
+    <p class="loading">Carregando...</p>
+    <section class="container">
+      <section class="items"></section>
+      <div class="dad-cart">
+        <button class="show-cart-button"><!--<img class="cart-button" src="./carrinho-carrinho.png" alt="">--><i class="material-icons" style="font-size:40px;color:rgb(255, 255, 255)">shopping_cart</i></button>
+        <section class="cart">
+          <ol class="cart__items"></ol>
+          <div class="dad-div">
+          <p class="total-price"></p>
+          <button class="empty-cart" ><img class="trash-can" src="./lixeira.png" alt="lixeira"></button>
+        </div>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
